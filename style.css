@@ -158,7 +158,7 @@ display: flex;
 @media (max-width: 560px){
 .about_new_game_btn{
         margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 60px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 10px;
@@ -170,7 +170,7 @@ display: flex;
 }
 .download_new_game_btn{
  margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 60px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 10px;
@@ -196,7 +196,7 @@ display: flex;
     }
 
     .maindiv p.gameonmain {
-        font-size: 70px;
+        font-size: 50px;
         padding-top: 540px;
     }
 }
@@ -211,8 +211,8 @@ display: flex;
     display: grid;
     width: 100;
     height: 130px;
-  background: rgb(99,23,161);
-background: linear-gradient(90deg, rgba(99,23,161,1) 0%, rgba(78,0,177,1) 100%);
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(31,31,31,1) 50%, rgba(0,0,0,1) 100%);
     color: white;
     text-align: center;
     font-size:40px;
@@ -223,5 +223,57 @@ height: 800px;
 background: rgb(2,0,36);
 background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(134,95,207,1) 36%, rgba(74,27,161,1) 100%);
 }
-
+/*********PORTFOLIO SECTION PORTFOLIO SECTION*********/
+.portfolio-section {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.portfolio-section img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+/*********HEADING SECTION HEADING SECTION*********/
+.heading-section {
+    padding-bottom: 30px;
+    padding-top: 80px;
+}
+.heading-section h2 {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.heading-section p {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.heading-borders {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.heading-borders span {
+    border: 1px solid red;
+    width: 5%;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:768px) {
+    .heading-section h2 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+    .heading-borders span {
+        width: 8%;
+    }
+}
+@media screen and (max-width:500px) {
+    .heading-borders span {
+        width: 25%;
+    }
+    .heading-section h2 {
+        font-size: 30px;
+    }
+}
 
