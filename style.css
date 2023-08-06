@@ -17,8 +17,22 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
+    z-index: 300;
+}
+.menu-main {
+    position: relative; /* Добавьте позиционирование для контейнера меню */
 }
 
+.menu-main a {
+    /* ... остальные стили ... */
+    position: relative; /* Добавьте позиционирование для элементов меню */
+    z-index: 1; /* Задайте z-index для элементов меню */
+}
+
+.menu-main a:hover {
+    color: purple;
+    z-index: 2; /* Увеличьте z-index при наведении, чтобы элемент поднимался наверх */
+}
 .menu-main:after {
     content: "";
     display: table;
@@ -82,6 +96,7 @@ body {
     }
 }
 
+
 /* Блоки И Кнопки */
 .maindiv{
 width: 100;
@@ -100,7 +115,10 @@ display: flex;
         padding: 30px; /* Добавьте отступы для маленьких экранов */
         padding-bottom: 40px;
     }
+
+
 }
+
 .download_new_game_btn{
     margin-top: 20px;
     padding-left: 60px;
