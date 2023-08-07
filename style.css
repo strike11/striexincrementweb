@@ -176,7 +176,7 @@ display: flex;
 @media (max-width: 560px){
 .about_new_game_btn{
         margin-top: 10px;
-    margin-left: 60px;
+    
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 10px;
@@ -185,10 +185,11 @@ display: flex;
     border: solid 2px cyan;
     color: white;
     font-size: 30px;
+    display: flex;
 }
 .download_new_game_btn{
  margin-top: 10px;
-    margin-left: 60px;
+
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 10px;
@@ -197,6 +198,7 @@ display: flex;
     border: solid 2px lime;
     color: white;
     font-size: 30px;
+    display: flex;
 }
 .newgamebuttons{
     margin-top: 90px;
@@ -233,6 +235,9 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(31,31,31,1) 50%, rgba(
     color: white;
     text-align: center;
     font-size:40px;
+}
+a{
+    text-decoration:none;
 }
 .games{
 width: 100;
@@ -320,7 +325,8 @@ background: radial-gradient(circle, rgb(0 0 0) 0%, rgb(41 41 41) 36%, rgb(10 8 1
         display: block;
     }
     .portfolio-block{
-        
+        padding-right: 20px;
+    border-radius: 10px;
     }
 
 }
